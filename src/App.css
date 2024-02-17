@@ -1,0 +1,43 @@
+.signupPage {
+  width: 100vw;
+  height: 90vh;
+  display: grid;
+  place-content: center;
+}
+
+label,
+input,
+button,
+span {
+  display: block;
+}
+form label {
+  font-weight: 600;
+  margin-top: 15px;
+}
+form input {
+  border: 2px solid rgb(200, 0, 0);
+  border-radius: 5px;
+  width: 400px;
+  height: 20px;
+}
+form span {
+  color: rgb(200, 0, 0);
+  font-size: 14px;
+}
+form button {
+  margin: auto;
+  background-color: #0365f0;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+  form input {
+    width: 90vw;
+  }
+}
